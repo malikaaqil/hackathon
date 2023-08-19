@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar bg-body-tertiary" style="padding: 0;">
+        <div class="container-fluid" id="firstNavber">
+            <h3>Perasonal Blogging App</h3>
+        <div class="d-flex">
+
+
+            <p style="margin-right: 15px;margin-top: 15px;">My Profile</p>
+            <button style="background-color: #61C8BB ; color: white; border: 0; font-size: large;">Logout</button>
+        </div>
+        </div>
+    </nav>
+
+    <div class="login">
+        <h1>Dashboard</h1>
+    </div>
+
+    <form id="dashboard">
+
+        <div class="mb-3">
+            <label for="tittle" class="form-label"></label>
+            <input type="text" class="form-control" id="tittle" placeholder="Blog Tittle" minlength="5" maxlength="50">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label"></label>
+            <textarea class="form-control" id="content" rows="3" placeholder="Blog Content" minlength="100" maxlength="3000"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary publishBtn">Publish Blog</button>
+    </form>
+<h2 id="myBlog">My Blog</h2>
+    <section>
+            <div>
+                <img src="./images/download.jpg" alt="">
+            </div>
+
+            <div id="sec-inner-div">
+                <h3>Dummy Blog Tittle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in ratione facilis incidunt reprehenderit, iure impedit porro ullam molestiae aliquid nesciunt, maxime quisquam magnam saepe sunt aut ab vel repellendus!</p>
+            </div>
+    </section>
+
+    <script src="auth.js"></script>
+    <script src="login.js"></script>
+    <script src="dashboard.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

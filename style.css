@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* login page styles */
+
+#login{
+    width: 35rem;
+    padding: 5rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    /* background-color: rgb(231, 234, 238); */
+    /* box-shadow: 10px 10px 10px black; */
+}
+.header{
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #61C8BB ;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3%;
+    margin-top: 1rem;
+}
+h4{
+    margin: 1rem 2rem;
+
+    width: 16rem;
+}
+button{
+    font-size: 1.4rem;
+    width: 6rem;
+    border: none;
+    background-color: #61C8BB ;  
+    color: white;
+}
+.lg-btn{
+    margin-left: 4%;
+    background-color: #61C8BB;
+    border: none;
+}
+.login{
+    background-color: rgb(241, 240, 238);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+.login h1{
+    margin-left: 2rem;
+ 
+}
+
+
+/* signup page styles */
+
+#signup{
+    font-family: sans-serif;
+    width: 32rem;
+    padding: 1rem;
+    margin: auto;
+    /* margin-top: 1rem; */
+    /* background-color: rgb(231, 234, 238); */
+    /* box-shadow: 10px 10px 10px black; */
+   
+}
+.signupInner{
+    margin: 1rem 0;
+    margin:1rem auto;
+     display: flex;
+    flex-direction: column;
+    width: 17rem;
+}
+.signupInner input{
+    height: 2rem;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+}
+.signupInner label{
+    margin: 7px 0;
+}
+.regbtn{
+    border: none;
+    width: 7rem;
+    border-radius: 0px 8px 0px 8px;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    align-items: center;
+    background-color:#61C8BB ;
+}
+
+
+/* Dashboard page styles */
+
+#dashboard{
+    width: 40%;
+    background-color: rgb(226, 226, 226);
+    margin: 1rem auto;
+    padding: 1.5rem;
+    box-shadow: 10px 10px 10px black;
+}
+.publishBtn{
+    width: 10rem;
+    margin: auto;
+    margin-left: 4.2rem;
+}
+.form-control{
+    width: 23rem;
+    margin: auto;
+}
+#myBlog{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: inline-block;
+    /* width: 1rem; */
+    margin-left: 4rem;
+}
+
+section{
+    margin-top: 10px;
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgb(231, 226, 226);
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+
+}
+section div img{
+    width: 100px;
+    /* height: 80px; */
+    border-radius: 50%;  
+}
+#sec-inner-div{
+    width: 77%; 
+    margin: auto;
+        text-align: justify;
+
+}
+#userName{
+    margin-left: 45rem;
+    margin-top: 1.2rem;
+}
+
+#firstNavber{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color:#61C8BB ;
+    color: white;
+}
+
+/* profile page styles */
+
+.card-img-top{
+    width: 30% !important;
+    margin-left: 2%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px black;
+  
+}
+.update-btn{
+     background-color: #61C8BB !important;
+    border: none !important; 
+} 
+.card{
+    margin-left: 17%;
+    padding: 3%;
+}
